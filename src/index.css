@@ -3,6 +3,16 @@ body {
   margin: 0;
 }
 
+body,
+:where(#root) {
+  min-height: 100vh;
+}
+
+:where(#root) {
+  display: flex;
+  flex-direction: column;
+}
+
 *,
 *:before,
 *:after {

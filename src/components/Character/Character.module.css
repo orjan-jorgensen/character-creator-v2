@@ -1,4 +1,15 @@
 .character {
   /* Fill the available container height */
   height: 100%;
+  min-height: 500px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}
+
+@media (max-width: 1024px) {
+  .character {
+    max-height: 80vh;
+    position: static;
+  }
 }

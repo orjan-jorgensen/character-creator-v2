@@ -1,2 +1,6 @@
 .buttonRow {
+    overflow-x: auto;
+    display: flex;
+    scrollbar-gutter: stable;
+    padding-bottom: 1rem;
 }

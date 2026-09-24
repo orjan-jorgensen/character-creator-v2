@@ -10,12 +10,13 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  max-width: 50%;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
-  margin-bottom: -4px;
+  /* margin-bottom: -4px; */
 }
 
 .metadata {
@@ -23,4 +24,15 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+@media (max-width: 1024px) {
+  .controlPane {
+    min-width: calc(100% - 32px);
+    scroll-snap-align: center;
+  }
+
+  .title {
+    margin-bottom: 1rem;
+  }
 }

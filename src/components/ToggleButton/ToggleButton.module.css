@@ -8,6 +8,7 @@
   outline-offset: 2px;
   border-radius: 1px;
   cursor: pointer;
+  aspect-ratio: 1 / 1;
 
   /*
     HACK: If I was building this UI in real life, I would
